@@ -1,7 +1,7 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generatorMarkdown = require("./Utils/generateMarkdown.js");
+const generateMarkdown = require("./Utils/generateMarkdown.js");
 
 const questions = [
         {
@@ -43,7 +43,7 @@ const questions = [
         {
             type: "input",
             name: "github",
-            message: "What is your GitHub Username",
+            message: "What is your GitHub username",
         },
         {
             type: "input",
@@ -69,7 +69,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then(function(data) {
-            writeToFile("readme.md", generatorMarkdown(data));
+            writeToFile("readme.md", generateMarkdown(data));
         })
 }
 

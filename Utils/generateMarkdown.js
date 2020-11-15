@@ -17,31 +17,26 @@ function generateMarkdown(data) {
   
 
    ## Installation\n
-   ${response.installation}\n
+   ${data.installation}\n
 
    ## App Usage\n
-   ${response.usage}\n
+   ${data.usage}\n
 
    ## Contributors\n
-   ${response.contribution}\n
+   ${data.contribution}\n
 
    ## Tests\n
-   ${response.test}\n
+   ${data.test}\n
 
    ## License\n
-   ${response.license}\n
+   ${data.license}\n
 
    ## Contact\n
-   Github:${response.github}\n
-   Email: ${response.email}\n
-
-   
-
-   
-
+   Github:${data.github}\n
+   Email: ${data.email}\n
 `;
 }
 
-module.exports = {
+module.exports = 
   generateMarkdown
-};
+;
