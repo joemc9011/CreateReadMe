@@ -1,45 +1,45 @@
-# onfv
+# Readme Generator
 
 
 
 
    # Description
-   evofnfe
+   A simple command line application in order for the user to create professional yet quikc readme files
 
    ![Code](code.png)
 
    ## Table of Contents
-   1. [Installation] (#Installation)
-   2. [Usage] (#App Usage)
-   3. [Contributors] (#Contributors)
-   4. [Test] (#Tests)
-   5. [License] (#lincense)
-   6. [Contact] (#contact)
+   1. Installation
+   2. Usage
+   3. Contributors
+   4. Test
+   5. License
+   6. Contact
   
 
    # Installation
 
-   feojnfev
+   Please install inquirer and FS
 
 
    # App Usage
 
-   vefojbnefv
+   PLease use within terminal
 
 
    # Contributors
 
-   fveojnevf
+   none
 
 
    # License
 
-   GPL
+   MIT
 
 
    # Contact
 
-   Github:veojnvef
+   Github:github.com/joemc9011
 
-   Email: efvoievf
+   Email: joemc9011@gmail.com
 
