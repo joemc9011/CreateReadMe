@@ -6,32 +6,30 @@ function generateMarkdown(data) {
 
    # Description
    ${data.description}\n
+   ![Code](code.png)
 
    ## Table of Contents
-   1. [installation] (#Installation)
-   2. [usage] (#App Usage)
-   3. [contributors] (#Contributors)
-   4. [test] (#Tests)
-   5. [license] (#lincense)
-   6. [contact] (#contact)
+   1. Installation
+   2. Usage
+   3. Contributors
+   4. Test
+   5. License
+   6. Contact
   
 
-   ## Installation\n
+   # Installation\n
    ${data.installation}\n
 
-   ## App Usage\n
+   # App Usage\n
    ${data.usage}\n
 
-   ## Contributors\n
+   # Contributors\n
    ${data.contribution}\n
 
-   ## Tests\n
-   ${data.test}\n
-
-   ## License\n
+   # License\n
    ${data.license}\n
 
-   ## Contact\n
+   # Contact\n
    Github:${data.github}\n
    Email: ${data.email}\n
 `;
