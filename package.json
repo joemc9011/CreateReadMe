@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/joemc9011/CreateReadMe/issues"
   },
-  "homepage": "https://github.com/joemc9011/CreateReadMe#readme"
+  "homepage": "https://github.com/joemc9011/CreateReadMe#readme",
+  "devDependencies": {}
 }
